@@ -20,5 +20,130 @@ This project analyzes historical hospital encounter data to identify:
 
 Business Problem :-
 
- Which patient characteristics and healthcare utilization patterns are associated with higher 30-day readmission risk, and how can analytics help                     prioritize patients for post-discharge follow-up review?
+ Which patient characteristics and healthcare utilization patterns are associated with higher 30-day readmission risk, and how can analytics help                   prioritize patients for post-discharge follow-up review?
+
+# 4. Business Objectives
+
+The primary objective of this project is to use healthcare data to understand **30-day hospital readmissions, patient characteristics, healthcare utilization, medication patterns, and hospital operations**, and convert these findings into actionable insights for hospital management.
+
+### 1. Measure and Monitor 30-Day Readmissions
+
+Measure the overall level of hospital readmissions by tracking:
+
+* Total hospital encounters
+* Number of 30-day readmissions
+* 30-day readmission rate
+
+**Business Value:**
+Helps hospital management monitor readmission performance and identify the overall scale of the readmission problem.
+
+---
+
+### 2. Understand Patient Profiles and Readmission Patterns
+
+Analyze how readmission patterns differ across patient characteristics such as:
+
+* Age
+* Gender
+* Race
+* Number of diagnoses
+* Hospital stay
+* Medication count
+
+**Business Value:**
+Helps identify patient segments with different readmission patterns and supports more focused patient-level analysis.
+
+---
+
+### 3. Analyze Healthcare Utilization Patterns
+
+Evaluate patients' previous healthcare utilization through:
+
+* Previous outpatient visits
+* Previous emergency visits
+* Previous inpatient visits
+
+**Business Value:**
+Helps understand how previous healthcare utilization is related to patient encounters and readmission patterns.
+
+---
+
+### 4. Evaluate Medication and Treatment Patterns
+
+Analyze medication-related information, including:
+
+* Diabetes medication
+* Insulin changes
+* Medication status
+* Medication count
+
+**Business Value:**
+Helps identify differences in readmission patterns across medication and treatment categories and highlights areas for further clinical investigation.
+
+---
+
+### 5. Analyze Admission Operations
+
+Analyze hospital admission patterns based on:
+
+* Admission type
+* Admission source
+* Admission volume
+
+**Business Value:**
+Helps management understand where patients are coming from, how patients are being admitted, and which admission channels contribute to overall hospital volume.
+
+---
+
+### 6. Evaluate Discharge and Post-Discharge Patterns
+
+Analyze:
+
+* Discharge location
+* Readmission rate by discharge location
+* 30-day readmission patterns
+
+**Business Value:**
+Helps identify differences in readmission patterns across discharge destinations and supports further investigation of post-discharge care and follow-up processes.
+
+---
+
+### 7. Analyze Diagnosis and Patient Complexity
+
+Compare diagnosis categories based on:
+
+* Number of encounters
+* Average hospital stay
+* Readmission rate
+* Number of readmissions
+
+**Business Value:**
+Helps hospital management understand which diagnosis groups contribute to patient volume, hospital utilization, and readmission activity.
+
+---
+
+### 8. Support Risk-Based Prioritization
+
+Use available predictive outputs to identify encounters classified as **higher risk for 30-day readmission**.
+
+Analyze:
+
+* Predicted high-risk encounters
+* Prediction probability
+* Actual vs predicted readmission outcomes
+
+**Business Value:**
+Provides a risk-oriented view that can support patient prioritization, follow-up planning, care coordination, and resource allocation.
+
+---
+
+### Overall Business Objective
+
+The overall objective is to transform raw healthcare data into an **interactive Business Intelligence solution** that enables hospital stakeholders to:
+
+**Monitor → Understand → Compare → Identify Patterns → Prioritize → Make Data-Driven Decisions**
+
+The dashboard is designed to help stakeholders understand **who is being readmitted, what patterns are associated with readmission, how healthcare resources are being utilized, and where further investigation may be required.**
+
+ 
               
