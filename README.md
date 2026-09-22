@@ -18,4 +18,6 @@ This project analyzes historical hospital encounter data to identify:
   -Predicted high-risk encounters
   -Operational areas where readmission patterns can be monitored
 
-Business Problem
+Business Problem :-
+            Which patient characteristics and healthcare utilization patterns are associated with higher 30-day readmission risk, and how can analytics help                      prioritize patients for post-discharge follow-up review?
+              
