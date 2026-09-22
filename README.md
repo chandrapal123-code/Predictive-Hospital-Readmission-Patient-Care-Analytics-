@@ -6,15 +6,15 @@ An end-to-end healthcare analytics project focused on understanding 30-day hospi
 Healthcare organizations generate large amounts of patient, admission, treatment, medication, and discharge data.
 One important operational challenge is understanding 30-day hospital readmissions.
 
-# This project analyzes historical hospital encounter data to identify:
-  -Patient characteristics associated with 30-day readmissions
-  -Admission and discharge patterns
-  -Medication-related patterns
-  -Diagnosis-level readmission patterns
-  -Hospital stay and treatment patterns
-  -Previous healthcare utilization
-  -Predicted high-risk encounters
-  -Operational areas where readmission patterns can be monitored
+This project analyzes historical hospital encounter data to identify:
+  *Patient characteristics associated with 30-day readmissions
+  *Admission and discharge patterns
+  *Medication-related patterns
+  *Diagnosis-level readmission patterns
+  *Hospital stay and treatment patterns
+  *Previous healthcare utilization
+  *Predicted high-risk encounters
+  *Operational areas where readmission patterns can be monitored
 
 # 3.Business Problem :-
 
