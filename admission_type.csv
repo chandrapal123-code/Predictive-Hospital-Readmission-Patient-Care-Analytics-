@@ -1,0 +1,10 @@
+admission_type_id,description
+1.0,Emergency
+2.0,Urgent
+3.0,Elective
+4.0,Newborn
+5.0,Not Available
+6.0,
+7.0,Trauma Center
+8.0,Not Mapped
+,
