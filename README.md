@@ -4,7 +4,9 @@ An end-to-end healthcare analytics project focused on understanding 30-day hospi
 Project Overview
 
 Healthcare organizations generate large amounts of patient, admission, treatment, medication, and discharge data.
+
 One important operational challenge is understanding 30-day hospital readmissions.
+
 This project analyzes historical hospital encounter data to identify:
 
 
