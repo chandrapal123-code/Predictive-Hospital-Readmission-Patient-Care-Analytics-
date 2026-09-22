@@ -1,14 +1,12 @@
 # Predictive-Hospital-Readmission-Patient-Care-Analytics-
 An end-to-end healthcare analytics project focused on understanding 30-day hospital readmission patterns, patient characteristics, admission/discharge operations, medication patterns, and predictive readmission risk.
 
-Project Overview
+ # 1.Project Overview
 
 Healthcare organizations generate large amounts of patient, admission, treatment, medication, and discharge data.
 One important operational challenge is understanding 30-day hospital readmissions.
 
-
-
-This project analyzes historical hospital encounter data to identify:
+# This project analyzes historical hospital encounter data to identify:
   -Patient characteristics associated with 30-day readmissions
   -Admission and discharge patterns
   -Medication-related patterns
@@ -18,7 +16,7 @@ This project analyzes historical hospital encounter data to identify:
   -Predicted high-risk encounters
   -Operational areas where readmission patterns can be monitored
 
-Business Problem :-
+# 3.Business Problem :-
 
  Which patient characteristics and healthcare utilization patterns are associated with higher 30-day readmission risk, and how can analytics help                   prioritize patients for post-discharge follow-up review?
 
