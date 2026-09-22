@@ -134,36 +134,53 @@ Analyze:
 Provides a risk-oriented view that can support patient prioritization, follow-up planning, care coordination, and resource allocation.
 
 ---
----
+# 9. Analytical Methodology
+### Phase 1 — Data Understanding
+   *The dataset was inspected to understand:
+     * Table structures
+     * Column names
+     * Data types
+     * Patient attributes
+     * Hospital attributes
+     * Clinical variables
+     * Medication variables
+     * Readmission fields
+### Phase 2 — Data Preparation
+   *The preparation process included:
+       * Identifying relevant fields
+       * Reviewing missing values
+       * Checking duplicate records
+       * Understanding categorical variables
+       * Mapping numeric IDs to descriptive categories
+       * Preparing analytical fields
+       
+### Phase 3 — SQL Analysis
 
-# 6. Data Model
+* SQL was used to calculate:
+   * Encounter counts
+   * Readmission counts
+   * Readmission rates
+   * Average hospital stay
+   * Average medication count
+   * Admission patterns
+   * Discharge patterns
+   * Diagnosis-level patterns
+   * Medication-level patterns
+     
+### Phase 4 — Exploratory Data Analysis
 
-* The project uses diabetic_data as the central fact table.
+  * Python/Pandas was used to explore:
+     * Patient demographics
+     * Age groups
+     * Hospital stay
+     * Medication count
+     * Diagnosis count
+     * Healthcare utilization
+     * Readmission patterns
 
-                    admission_type
-                          │
-                          │ admission_type_id
-                          ▼
-                  ┌─────────────────┐
-                  │ diabetic_data   │
-                  │                 │
-                  │ encounter_id    │
-                  │ patient_nbr     │
-                  │ age             │
-                  │ gender          │
-                  │ diagnoses       │
-                  │ medications     │
-                  │ hospital stay   │
-                  │ readmitted_30d  │
-                  └───────┬─────────┘
-                          │
-             ┌────────────┴────────────┐
-             │                         │
-             ▼                         ▼
-   discharge_disposition       admission_source
+### Phase 6 — Power BI Dashboard
 
-* This structure allows numeric IDs in the main table to be interpreted using descriptive lookup tables.
-
-
- 
-              
+ * The final analytical results were transformed into an interactive Power BI dashboard.
+      * Page 1:Executive Overview
+      * Page 2:Clinical Risk & Medication Analysis
+      * Page 3:Admission & Discharge Operations
