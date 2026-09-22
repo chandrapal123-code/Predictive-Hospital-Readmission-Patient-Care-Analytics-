@@ -135,13 +135,6 @@ Provides a risk-oriented view that can support patient prioritization, follow-up
 
 ---
 
-### Overall Business Objective
-
-The overall objective is to transform raw healthcare data into an **interactive Business Intelligence solution** that enables hospital stakeholders to:
-
-**Monitor → Understand → Compare → Identify Patterns → Prioritize → Make Data-Driven Decisions**
-
-The dashboard is designed to help stakeholders understand **who is being readmitted, what patterns are associated with readmission, how healthcare resources are being utilized, and where further investigation may be required.**
 
  
               
