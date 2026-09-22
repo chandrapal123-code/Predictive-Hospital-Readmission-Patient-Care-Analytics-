@@ -3,3 +3,19 @@ An end-to-end healthcare analytics project focused on understanding 30-day hospi
 
 Project Overview
 
+Healthcare organizations generate large amounts of patient, admission, treatment, medication, and discharge data.
+
+One important operational challenge is understanding 30-day hospital readmissions.
+
+This project analyzes historical hospital encounter data to identify:
+
+Patient characteristics associated with 30-day readmissions
+Admission and discharge patterns
+Medication-related patterns
+Diagnosis-level readmission patterns
+Hospital stay and treatment patterns
+Previous healthcare utilization
+Predicted high-risk encounters
+Operational areas where readmission patterns can be monitored
+
+The project combines SQL-based analysis and Power BI visualization to transform healthcare encounter data into business-oriented insights.
