@@ -9,4 +9,11 @@ One important operational challenge is understanding 30-day hospital readmission
 
 This project analyzes historical hospital encounter data to identify:
 
-
+Patient characteristics associated with 30-day readmissions
+Admission and discharge patterns
+Medication-related patterns
+Diagnosis-level readmission patterns
+Hospital stay and treatment patterns
+Previous healthcare utilization
+Predicted high-risk encounters
+Operational areas where readmission patterns can be monitored
