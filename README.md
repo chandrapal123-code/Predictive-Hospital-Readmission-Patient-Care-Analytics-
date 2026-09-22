@@ -134,6 +134,35 @@ Analyze:
 Provides a risk-oriented view that can support patient prioritization, follow-up planning, care coordination, and resource allocation.
 
 ---
+---
+
+# 6. Data Model
+
+* The project uses diabetic_data as the central fact table.
+
+                    admission_type
+                          │
+                          │ admission_type_id
+                          ▼
+                  ┌─────────────────┐
+                  │ diabetic_data   │
+                  │                 │
+                  │ encounter_id    │
+                  │ patient_nbr     │
+                  │ age             │
+                  │ gender          │
+                  │ diagnoses       │
+                  │ medications     │
+                  │ hospital stay   │
+                  │ readmitted_30d  │
+                  └───────┬─────────┘
+                          │
+             ┌────────────┴────────────┐
+             │                         │
+             ▼                         ▼
+   discharge_disposition       admission_source
+
+* This structure allows numeric IDs in the main table to be interpreted using descriptive lookup tables.
 
 
  
