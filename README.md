@@ -18,3 +18,4 @@ This project analyzes historical hospital encounter data to identify:
   -Predicted high-risk encounters
   -Operational areas where readmission patterns can be monitored
 
+Business Problem
