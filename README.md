@@ -20,5 +20,5 @@ This project analyzes historical hospital encounter data to identify:
 
 Business Problem :-
 
-            Which patient characteristics and healthcare utilization patterns are associated with higher 30-day readmission risk, and how can analytics help                      prioritize patients for post-discharge follow-up review?
+ Which patient characteristics and healthcare utilization patterns are associated with higher 30-day readmission risk, and how can analytics help                     prioritize patients for post-discharge follow-up review?
               
