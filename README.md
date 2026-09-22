@@ -16,11 +16,11 @@ This project analyzes historical hospital encounter data to identify:
   * Predicted high-risk encounters
   * Operational areas where readmission patterns can be monitored
 
-# 3.Business Problem :-
+# 2.Business Problem :-
 
  Which patient characteristics and healthcare utilization patterns are associated with higher 30-day readmission risk, and how can analytics help                   prioritize patients for post-discharge follow-up review?
 
-# 4. Business Objectives
+# 3. Business Objectives
 
 The primary objective of this project is to use healthcare data to understand **30-day hospital readmissions, patient characteristics, healthcare utilization, medication patterns, and hospital operations**, and convert these findings into actionable insights for hospital management.
 
@@ -134,7 +134,7 @@ Analyze:
 Provides a risk-oriented view that can support patient prioritization, follow-up planning, care coordination, and resource allocation.
 
 ---
-# 9. Analytical Methodology
+# 4. Analytical Methodology
 ### Phase 1 — Data Understanding
    *The dataset was inspected to understand:
      * Table structures
