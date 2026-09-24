@@ -134,6 +134,23 @@ Analyze:
 Provides a risk-oriented view that can support patient prioritization, follow-up planning, care coordination, and resource allocation.
 
 ---
+
+# 4. Dataset
+
+* The project uses a historical hospital encounter dataset stored in a SQLite database.
+### Main Dataset
+   * diabetic_data
+
+*The analyzed main dataset contains:
+
+71,518 hospital encounters
+Patient information
+Hospitalization information
+Diagnosis information
+Medication information
+Healthcare utilization information
+Readmission information
+
 # 4. Analytical Methodology
 ### Phase 1 — Data Understanding
    *The dataset was inspected to understand:
