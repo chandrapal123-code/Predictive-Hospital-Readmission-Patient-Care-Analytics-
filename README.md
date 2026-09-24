@@ -150,7 +150,7 @@ Provides a risk-oriented view that can support patient prioritization, follow-up
    * Healthcare utilization information
    * Readmission information
 ---
-# 4. Analytical Methodology
+# 5. Analytical Methodology
 ### Phase 1 — Data Understanding
    *The dataset was inspected to understand:
      * Table structures
