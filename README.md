@@ -140,7 +140,7 @@ Provides a risk-oriented view that can support patient prioritization, follow-up
 * The project uses a historical hospital encounter dataset stored in a SQLite database.
 ### Main Dataset
    * diabetic_data
-    * The analyzed main dataset contains:
+ * The analyzed main dataset contains:
 
    * 71,518 hospital encounters
    * Patient information
