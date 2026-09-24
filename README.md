@@ -200,3 +200,29 @@ Provides a risk-oriented view that can support patient prioritization, follow-up
       * Page 1:Executive Overview
       * Page 2:Clinical Risk & Medication Analysis
       * Page 3:Admission & Discharge Operations
+        
+# 30-Day Readmissions
+Readmissions_30D =
+CALCULATE(
+    COUNTROWS(diabetic_data),
+    diabetic_data[readmitted_30d] = 1
+)
+30-Day Readmission Rate
+Readmission_Rate_30D =
+DIVIDE(
+    CALCULATE(
+        COUNTROWS(diabetic_data),
+        diabetic_data[readmitted_30d] = 1
+    ),
+    COUNTROWS(diabetic_data),
+    0
+)
+Average Hospital Stay
+Avg Hospital Stay =
+AVERAGE(diabetic_data[time_in_hospital])
+Average Medications
+Avg Medications =
+AVERAGE(diabetic_data[num_medications])
+Average Laboratory Procedures
+Avg Lab Procedures =
+AVERAGE(diabetic_data[num_lab_procedures])
