@@ -200,5 +200,18 @@ Provides a risk-oriented view that can support patient prioritization, follow-up
       * Page 1:Executive Overview
       * Page 2:Clinical Risk & Medication Analysis
       * Page 3:Admission & Discharge Operations
-        
 
+### Solution
+   * Built an end-to-end analytics solution using Python, SQL, SQLite, and Power BI to analyze hospital readmission patterns.
+   * Identified patient groups and healthcare factors associated with higher 30-day readmission rates.
+   * Developed predictive risk analysis using a Gradient Boosting model to identify high-risk encounters.
+   * Created an interactive Power BI dashboard to help stakeholders prioritize encounters for post-discharge follow-up review.
+
+### Key Findings
+   * Analyzed 71,518 hospital encounters.
+   * Observed 6,293 30-day readmissions, resulting in an 8.80% readmission rate.
+   * Average hospital stay was 4.29 days.
+   * Average medication count was 15.71 per encounter.
+   * Higher readmission patterns were observed across certain diagnoses, medication changes, admission sources, and discharge locations.
+   * Predictive analysis identified 11,773 encounters as high-risk, supporting prioritization for follow-up review.
+   
