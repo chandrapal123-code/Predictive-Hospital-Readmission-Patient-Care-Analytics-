@@ -214,4 +214,6 @@ Provides a risk-oriented view that can support patient prioritization, follow-up
    * Average medication count was 15.71 per encounter.
    * Higher readmission patterns were observed across certain diagnoses, medication changes, admission sources, and discharge locations.
    * Predictive analysis identified 11,773 encounters as high-risk, supporting prioritization for follow-up review.
+### final insights 
+ * The business solution is to identify patient groups and healthcare utilization patterns associated with higher 30-day readmission rates and use these insights to prioritize high-risk encounters for post-discharge follow-up. This can help healthcare teams focus their limited follow-up resources on patients who may need greater attention and improve readmission monitoring.
    
